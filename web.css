@@ -1,0 +1,904 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman";
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+}
+.logo {
+  float: left;
+  width: 10%;
+  height: 10vh;
+  position: absolute;
+  left: 100px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+  left: 35%;
+}
+li a {
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-weight: 800px;
+  transition: 1s;
+  font-size: 20px;
+}
+.ma {
+  border: solid 1px grey;
+  margin-left: 100px;
+  border-radius: 5px;
+  transition: 1s;
+}
+.ma:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+li a:hover {
+  color: black;
+  transform: scale(1.1);
+  z-index: 1;
+}
+.background {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/network.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button {
+  position: relative;
+  left: 150px;
+  top: 360px;
+  border-radius: 5px;
+  background-color: rgb(252, 176, 14);
+  color: #fff;
+}
+.buttonm {
+  font-size: 20px;
+  font-family: "Times New Roman";
+  padding: 10px;
+}
+.buttonm:hover {
+  background-color: rgb(6, 65, 175);
+}
+.cont {
+  color: white;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  left: 150px;
+  top: 250px;
+}
+.cont1 {
+  color: white;
+  position: absolute;
+  left: 150px;
+  top: 400px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.image {
+  background-image: url(/computer.svg);
+  width: 4000px;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 850px;
+  top: 200px;
+}
+.service {
+  width: 100%;
+  height: 155vh;
+  background-color: rgb(241, 231, 231);
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.altaf {
+  left: 540px;
+  top: 50px;
+  font-size: 50px;
+  position: absolute;
+  /* z-index: -1; */
+  /* justify-content: center;
+  align-items: center; */
+}
+.first {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.first:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.second {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  left: 525px;
+  top: 150px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.second:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.third {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  left: 900px;
+  top: 150px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.third:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.fourth {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  left: 150px;
+  top: 550px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.fourth:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.five {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  left: 525px;
+  top: 550px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.five:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.six {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  left: 900px;
+  top: 550px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.six:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.A {
+  position: absolute;
+  left: 33px;
+  top: 160px;
+}
+.p1 {
+  position: absolute;
+  left: 35px;
+  top: 200px;
+  font-size: 20px;
+}
+.B {
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+.p2 {
+  position: absolute;
+  left: 35px;
+  top: 200px;
+  font-size: 20px;
+}
+.C {
+  position: absolute;
+  left: 55px;
+  top: 160px;
+}
+.p3 {
+  position: absolute;
+  left: 35px;
+  top: 200px;
+  font-size: 20px;
+}
+.D {
+  position: absolute;
+  left: 60px;
+  top: 160px;
+}
+.p4 {
+  position: absolute;
+  left: 35px;
+  top: 200px;
+  font-size: 20px;
+}
+.E {
+  position: absolute;
+  left: 80px;
+  top: 160px;
+}
+.p5 {
+  position: absolute;
+  left: 35px;
+  top: 200px;
+  font-size: 20px;
+}
+.F {
+  position: absolute;
+  left: 90px;
+  top: 160px;
+}
+.p6 {
+  position: absolute;
+  left: 35px;
+  top: 200px;
+  font-size: 20px;
+}
+.khaja {
+  width: 100%;
+  height: 45vh;
+  background-color: white;
+  position: relative;
+}
+.imran {
+  position: absolute;
+  left: 550px;
+  font-size: 45px;
+  top: 50px;
+}
+.content {
+  position: absolute;
+  left: 120px;
+  font-size: 25px;
+  top: 140px;
+}
+.soft {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  left: 100px;
+}
+.mobile {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  left: 100px;
+}
+.ux {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  left: 100px;
+}
+.digital {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  left: 100px;
+}
+.cloud {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  left: 100px;
+}
+.maintenance {
+  position: absolute;
+  height: 150px;
+  width: 100px;
+  left: 100px;
+}
+/* //////////////////////////////////////////// */
+.flex {
+  width: 100%;
+  height: 210vh;
+  background-image: linear-gradient(rgba(4, 3, 10, 0.8), rgba(5, 4, 15, 0.6)),
+    url(/meeting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.box1 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box1:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.react {
+  width: 250px;
+  height: 200px;
+}
+.box2 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 400px;
+  top: 150px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box2:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.angular {
+  width: 250px;
+  height: 200px;
+}
+.box3 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box3:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.node {
+  width: 250px;
+  height: 200px;
+}
+.box4 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 1000px;
+  top: 150px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box4:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.reacthooks {
+  width: 250px;
+  height: 200px;
+}
+.box5 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 420px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box5:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.azure {
+  width: 250px;
+  height: 200px;
+}
+.box6 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 400px;
+  top: 420px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box6:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.flutter {
+  width: 250px;
+  height: 200px;
+}
+.box7 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 700px;
+  top: 420px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box7:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.share {
+  width: 250px;
+  height: 200px;
+}
+.box8 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 1000px;
+  top: 420px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box8:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.native {
+  width: 250px;
+  height: 200px;
+}
+.box9 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 690px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box9:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.php {
+  width: 250px;
+  height: 200px;
+}
+.box10 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 400px;
+  top: 690px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box10:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.bootstrap {
+  width: 250px;
+  height: 200px;
+}
+.box11 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 700px;
+  top: 690px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box11:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.mysql {
+  width: 250px;
+  height: 200px;
+}
+.box12 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 1000px;
+  top: 690px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box12:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.ca {
+  width: 250px;
+  height: 200px;
+}
+.box13 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 960px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box13:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.nosql {
+  width: 250px;
+  height: 200px;
+}
+.box14 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 400px;
+  top: 960px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box14:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.codelgniter {
+  width: 250px;
+  height: 200px;
+}
+.box15 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 700px;
+  top: 960px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box15:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.vbnet {
+  width: 250px;
+  height: 200px;
+}
+.box16 {
+  width: 250px;
+  height: 220px;
+  background-color: white;
+  position: absolute;
+  left: 1000px;
+  top: 960px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+.box16:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.python {
+  width: 250px;
+  height: 200px;
+}
+.titlec {
+  font-size: 50px;
+  position: absolute;
+  left: 380px;
+  top: 30px;
+}
+
+/* //////////////////////////////////////////// */
+
+/* .contact {
+  width: 100%;
+  height: 100vh;
+  background-color: darkkhaki;
+  position: relative;
+}
+.heading {
+  font-size: 50px;
+  position: absolute;
+  left: 550px;
+  top: 25px;
+}
+.form {
+  position: relative;
+}
+.firstname {
+  position: absolute;
+  font-size: 15px;
+  left: 150px;
+} */
+/* .name {
+  font-size: 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  padding-left: 50px; */
+/* }
+.email {
+  font-size: 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  padding-left: 50px;
+}
+.phone {
+  font-size: 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  padding-left: 50px;
+} */
+/* .address {
+  width: 280px;
+  height: 130px;
+  position: absolute;
+  background-color: rgb(79, 79, 167);
+  color: white;
+  left: 1020px;
+  border-radius: 10px;
+  top: 150px;
+}
+.add {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.peer {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  font-size: 20px;
+}
+.Email {
+  position: absolute;
+  top: 300px;
+  left: 1020px;
+  background-color: rgb(79, 79, 167);
+  border-radius: 10px;
+  width: 280px;
+  height: 100px;
+}
+.mail {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: white;
+} */
+/* .magdum {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  font-size: 23px;
+  color: white;
+}
+.phone {
+  position: absolute;
+  top: 420px;
+  left: 1020px;
+  background-color: rgb(79, 79, 167);
+  border-radius: 10px;
+  width: 230px;
+  height: 100px;
+}
+.xyz {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 30px;
+  color: white;
+}
+.num {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  font-size: 23px;
+  color: white;
+} */
+
+/* //////////////////////////////////////////// */
+
+.whom {
+  width: 100%;
+  height: 45vh;
+  background-color: #fff;
+  position: relative;
+}
+.work {
+  position: absolute;
+  font-size: 60px;
+  font-family: "Times New Roman";
+  left: 430px;
+  top: 50px;
+}
+.microsoft {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  transition: 1s;
+}
+.microsoft:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.cdac {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  transition: 1s;
+}
+.cdac:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.morgan {
+  position: absolute;
+  top: 100px;
+  left: 590px;
+  transition: 1s;
+}
+.morgan:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.sulzer {
+  position: absolute;
+  top: 100px;
+  left: 800px;
+  transition: 1s;
+}
+.sulzer:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.relince {
+  position: absolute;
+  top: 100px;
+  left: 1020px;
+  transition: 1s;
+}
+.relince:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+/* //////////////////////////////////////////// */
+
+.footer {
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(6, 78, 179);
+  position: relative;
+  color: white;
+  font-family: Georgia;
+}
+.prabhas {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+.social {
+  position: relative;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 900px;
+  top: 15px;
+  transition: 1s;
+}
+.facebook:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  color: #fff;
+}
+.instgram {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 980px;
+  top: 15px;
+  transition: 1s;
+}
+.instgram:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  color: #fff;
+}
+.twitter {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1060px;
+  top: 15px;
+  transition: 1s;
+}
+.twitter:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  color: #fff;
+}
+.linked {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1140px;
+  top: 15px;
+  transition: 1s;
+}
+.linked:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  color: #fff;
+}
+/* //////////////////////////////////////////// */
